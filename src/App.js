@@ -7,10 +7,14 @@ import imageTwo from './vegetables.png';
 function App() {
   return (
     <div className="App">
-      <img src={ image } width="200px" alt="apple"/>
+      <img src={ image } width="180px" alt="apple"/>
+      <div className='container'>
       <h1>Grocery List</h1>
+      </div>
       < GroceryList />
-      <img src={ imageTwo } width="200px" alt="vegetables"/>
+      <div className='containerTwo'>
+      <img src={ imageTwo } width="250px" alt="vegetables"/>
+      </div>
       
       
     </div>
