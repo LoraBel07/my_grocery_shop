@@ -58,6 +58,7 @@ export class GroceryList extends Component {
 						<li onClick={this.crossedWord} key={index}>{item}</li>
 					))}
 					
+					
 				</ul>
 				<div className='container'>
 				<button onClick={() => this.deleteItem()} className='btn delete'>Delete</button>
